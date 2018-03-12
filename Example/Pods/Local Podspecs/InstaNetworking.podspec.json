@@ -1,0 +1,22 @@
+{
+  "name": "InstaNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of InstaNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mahmoud.amer.m@gmail.com/InstaNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahmoud.amer.m@gmail.com": "mahmoud.amer.m@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mahmoud.amer.m@gmail.com/InstaNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InstaNetworking/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - InstaNetworking (0.1.0)
+
+DEPENDENCIES:
+  - InstaNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  InstaNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  InstaNetworking: 1bda3ca15fa963e3c76411f3c963489c5de0f29a
+
+PODFILE CHECKSUM: c7b234ff75a64b1787e56479baad7f2d9d83ca86
+
+COCOAPODS: 1.4.0

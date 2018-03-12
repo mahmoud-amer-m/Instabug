@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FCE151E43470B2D9F0D0AD39070A2BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		209BAA4351E033A88CF4764AA16CD657 /* Pods-InstaNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C50EB7D349F21630BB552239A69E153F /* Pods-InstaNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415D3E4180404A2C1609151124A22B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5674C9737D5BF26EB9FC6BD2C0E248C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		68DF78E0855A8542B9297B3727354F91 /* InstaNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EC06649E704EC1DDC4728514B4A2F0 /* InstaNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775FF92610E0C339AC155477FBBC6BAF /* Pods-InstaNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13E17B94A383E62486721D8F1659247 /* Pods-InstaNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B3894127A2D8D227F1E073BDA0EE61C /* Pods-InstaNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D34D0BC79FAEE4E613EF9B34D6123 /* Pods-InstaNetworking_Tests-dummy.m */; };
+		8A184604DA91BBB813D61C0E49AD3B6D /* Pods-InstaNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD43F997E48DF46AD18AEDADE6F6C4 /* Pods-InstaNetworking_Example-dummy.m */; };
+		A7C73DC09243F8EF749EBCF6F590B67F /* InstaNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF055E2EAB26C8E24D92F06B63EA5C /* InstaNetworking-dummy.m */; };
+		D6A8D354205737B700DF0604 /* HelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8D34C205737B600DF0604 /* HelperClass.m */; };
+		D6A8D355205737B700DF0604 /* URLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8D34D205737B600DF0604 /* URLSession.m */; };
+		D6A8D356205737B700DF0604 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D34E205737B600DF0604 /* Request.h */; };
+		D6A8D357205737B700DF0604 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8D34F205737B600DF0604 /* Request.m */; };
+		D6A8D358205737B700DF0604 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D350205737B600DF0604 /* Reachability.h */; };
+		D6A8D359205737B700DF0604 /* HelperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D351205737B700DF0604 /* HelperClass.h */; };
+		D6A8D35A205737B700DF0604 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8D352205737B700DF0604 /* Reachability.m */; };
+		D6A8D35B205737B700DF0604 /* URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D353205737B700DF0604 /* URLSession.h */; };
+		F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F6237B2B608F0884BA40702BB4B25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE21F97E30276FB67A401E53366199F;
+			remoteInfo = InstaNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20856B88423069990898C6CE0059964B /* Pods-InstaNetworking_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaNetworking_Tests-resources.sh"; sourceTree = "<group>"; };
+		26CB0F4E8B613B56FC0001F6C37E91B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9F231FC38C8C0962D907208FFDE9D1 /* Pods-InstaNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		40EC06649E704EC1DDC4728514B4A2F0 /* InstaNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaNetworking-umbrella.h"; sourceTree = "<group>"; };
+		48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = InstaNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4BFF055E2EAB26C8E24D92F06B63EA5C /* InstaNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaNetworking-dummy.m"; sourceTree = "<group>"; };
+		52508AC8A18ED49D7B98C298FE895540 /* Pods-InstaNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B674047E01A24715C592F242726219E /* Pods-InstaNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71F24CEF819EB696B21BDAB8DA8F2BB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		815F2638D91F6091669059EF01B379BC /* InstaNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaNetworking-prefix.pch"; sourceTree = "<group>"; };
+		82F9BF772898FE7E2F708AF3A7BC950C /* Pods_InstaNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F48A12A21F83B0E806C097E1E9C6FE /* Pods-InstaNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92F6681675F9455FB832749A8E070A36 /* Pods-InstaNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94CFCE7CD579550713261E7CE7E091AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9CFE2D2F390615E08EC29F4C0070F75B /* Pods-InstaNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB3B56DCA92DA34BCAA8C9E8CF43179 /* Pods-InstaNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		9FAB569B441AB644FBF0814C1AA7D43A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01A5B968037148EA25293DEE6160BFD /* Pods_InstaNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1969DC875B4C0D36087E1DE3A76459B /* Pods-InstaNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		A28A808C9F74D54CF8EB8BC85B44073D /* Pods-InstaNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A534C1808EB2B145F164D7246C909176 /* InstaNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstaNetworking.modulemap; sourceTree = "<group>"; };
+		B838473A4A07FA57900EAF85C6BE5453 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAD43F997E48DF46AD18AEDADE6F6C4 /* Pods-InstaNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		BC5E5A63559AEBD5573A76C12DD12843 /* Pods-InstaNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC9D34D0BC79FAEE4E613EF9B34D6123 /* Pods-InstaNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		C50EB7D349F21630BB552239A69E153F /* Pods-InstaNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB574EA6D8B4F74CD710B26C1BB226E7 /* InstaNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaNetworking.xcconfig; sourceTree = "<group>"; };
+		CC3EC9B3EFF0D3A9925A722FFAB347FE /* Pods-InstaNetworking_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaNetworking_Example-resources.sh"; sourceTree = "<group>"; };
+		CD239268833041F2575875D75B9F7C4E /* Pods-InstaNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D13E17B94A383E62486721D8F1659247 /* Pods-InstaNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D6A8D34C205737B600DF0604 /* HelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperClass.m; sourceTree = "<group>"; };
+		D6A8D34D205737B600DF0604 /* URLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLSession.m; sourceTree = "<group>"; };
+		D6A8D34E205737B600DF0604 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		D6A8D34F205737B600DF0604 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		D6A8D350205737B600DF0604 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D6A8D351205737B700DF0604 /* HelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperClass.h; sourceTree = "<group>"; };
+		D6A8D352205737B700DF0604 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D6A8D353205737B700DF0604 /* URLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLSession.h; sourceTree = "<group>"; };
+		DB4A134E42FC1E46DB9F58B9EDE55A2E /* Pods-InstaNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstaNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA49C049A095AEE9530ADB52427C56CA /* InstaNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InstaNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649011EDD846D91B37129EE0A933D15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCE151E43470B2D9F0D0AD39070A2BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5B24115D792080B084566DF9FC02E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5674C9737D5BF26EB9FC6BD2C0E248C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA0E8530B6AEBC2F09D46EEA9C572B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415D3E4180404A2C1609151124A22B1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAE4390598F7DC10E1B244DEBEC2162 /* InstaNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */,
+				D6A8D353205737B700DF0604 /* URLSession.h */,
+				D6A8D34D205737B600DF0604 /* URLSession.m */,
+				D6A8D34E205737B600DF0604 /* Request.h */,
+				D6A8D34F205737B600DF0604 /* Request.m */,
+				D6A8D351205737B700DF0604 /* HelperClass.h */,
+				D6A8D34C205737B600DF0604 /* HelperClass.m */,
+				D6A8D350205737B600DF0604 /* Reachability.h */,
+				D6A8D352205737B700DF0604 /* Reachability.m */,
+				96E6B501AF4AEAF3B9EEA2693AE0BC35 /* Pod */,
+				D7820E70CFDADA2A292112A4D020B58E /* Support Files */,
+			);
+			name = InstaNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		470EC32545AEAD8C5149182DF7646536 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE4390598F7DC10E1B244DEBEC2162 /* InstaNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B1A622D072E1A13FF138770D0C8A5E4 /* Pods-InstaNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B838473A4A07FA57900EAF85C6BE5453 /* Info.plist */,
+				9DB3B56DCA92DA34BCAA8C9E8CF43179 /* Pods-InstaNetworking_Example.modulemap */,
+				92F6681675F9455FB832749A8E070A36 /* Pods-InstaNetworking_Example-acknowledgements.markdown */,
+				BC5E5A63559AEBD5573A76C12DD12843 /* Pods-InstaNetworking_Example-acknowledgements.plist */,
+				BBAD43F997E48DF46AD18AEDADE6F6C4 /* Pods-InstaNetworking_Example-dummy.m */,
+				A28A808C9F74D54CF8EB8BC85B44073D /* Pods-InstaNetworking_Example-frameworks.sh */,
+				CC3EC9B3EFF0D3A9925A722FFAB347FE /* Pods-InstaNetworking_Example-resources.sh */,
+				C50EB7D349F21630BB552239A69E153F /* Pods-InstaNetworking_Example-umbrella.h */,
+				5B674047E01A24715C592F242726219E /* Pods-InstaNetworking_Example.debug.xcconfig */,
+				CD239268833041F2575875D75B9F7C4E /* Pods-InstaNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-InstaNetworking_Example";
+			path = "Target Support Files/Pods-InstaNetworking_Example";
+			sourceTree = "<group>";
+		};
+		5CFF077CF3A915E4918C262316FBE042 /* Pods-InstaNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26CB0F4E8B613B56FC0001F6C37E91B1 /* Info.plist */,
+				A1969DC875B4C0D36087E1DE3A76459B /* Pods-InstaNetworking_Tests.modulemap */,
+				91F48A12A21F83B0E806C097E1E9C6FE /* Pods-InstaNetworking_Tests-acknowledgements.markdown */,
+				DB4A134E42FC1E46DB9F58B9EDE55A2E /* Pods-InstaNetworking_Tests-acknowledgements.plist */,
+				BC9D34D0BC79FAEE4E613EF9B34D6123 /* Pods-InstaNetworking_Tests-dummy.m */,
+				2C9F231FC38C8C0962D907208FFDE9D1 /* Pods-InstaNetworking_Tests-frameworks.sh */,
+				20856B88423069990898C6CE0059964B /* Pods-InstaNetworking_Tests-resources.sh */,
+				D13E17B94A383E62486721D8F1659247 /* Pods-InstaNetworking_Tests-umbrella.h */,
+				52508AC8A18ED49D7B98C298FE895540 /* Pods-InstaNetworking_Tests.debug.xcconfig */,
+				9CFE2D2F390615E08EC29F4C0070F75B /* Pods-InstaNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-InstaNetworking_Tests";
+			path = "Target Support Files/Pods-InstaNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				470EC32545AEAD8C5149182DF7646536 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DA6AE976636AC3A4D95AF375DED465FC /* Products */,
+				889A6D945C36D329BD6255F9A1278F59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889A6D945C36D329BD6255F9A1278F59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B1A622D072E1A13FF138770D0C8A5E4 /* Pods-InstaNetworking_Example */,
+				5CFF077CF3A915E4918C262316FBE042 /* Pods-InstaNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96E6B501AF4AEAF3B9EEA2693AE0BC35 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA49C049A095AEE9530ADB52427C56CA /* InstaNetworking.podspec */,
+				71F24CEF819EB696B21BDAB8DA8F2BB7 /* LICENSE */,
+				94CFCE7CD579550713261E7CE7E091AB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7820E70CFDADA2A292112A4D020B58E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FAB569B441AB644FBF0814C1AA7D43A /* Info.plist */,
+				A534C1808EB2B145F164D7246C909176 /* InstaNetworking.modulemap */,
+				CB574EA6D8B4F74CD710B26C1BB226E7 /* InstaNetworking.xcconfig */,
+				4BFF055E2EAB26C8E24D92F06B63EA5C /* InstaNetworking-dummy.m */,
+				815F2638D91F6091669059EF01B379BC /* InstaNetworking-prefix.pch */,
+				40EC06649E704EC1DDC4728514B4A2F0 /* InstaNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InstaNetworking";
+			sourceTree = "<group>";
+		};
+		DA6AE976636AC3A4D95AF375DED465FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */,
+				82F9BF772898FE7E2F708AF3A7BC950C /* Pods_InstaNetworking_Example.framework */,
+				A01A5B968037148EA25293DEE6160BFD /* Pods_InstaNetworking_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6731F75EA80A9CAE80C9306BC2E511B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209BAA4351E033A88CF4764AA16CD657 /* Pods-InstaNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B6CACFFC4C1538A59FA1FB39130554 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A8D358205737B700DF0604 /* Reachability.h in Headers */,
+				D6A8D359205737B700DF0604 /* HelperClass.h in Headers */,
+				D6A8D356205737B700DF0604 /* Request.h in Headers */,
+				68DF78E0855A8542B9297B3727354F91 /* InstaNetworking-umbrella.h in Headers */,
+				D6A8D35B205737B700DF0604 /* URLSession.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD81BCA253BCFAA88447A3A08D451CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775FF92610E0C339AC155477FBBC6BAF /* Pods-InstaNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1988CF1A2E16D2F2D496837ED6779CEA /* Pods-InstaNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D46563291E0C47A02CBEAE2F78B8EFC /* Build configuration list for PBXNativeTarget "Pods-InstaNetworking_Tests" */;
+			buildPhases = (
+				E2B3283E1FD91AD81915141403C28E56 /* Sources */,
+				8B5B24115D792080B084566DF9FC02E9 /* Frameworks */,
+				FD81BCA253BCFAA88447A3A08D451CFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-InstaNetworking_Tests";
+			productName = "Pods-InstaNetworking_Tests";
+			productReference = A01A5B968037148EA25293DEE6160BFD /* Pods_InstaNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DE21F97E30276FB67A401E53366199F /* InstaNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53C254D88AB58982B15513D6BAD847A /* Build configuration list for PBXNativeTarget "InstaNetworking" */;
+			buildPhases = (
+				735AED07D22188A48318A4D29ACA0CA6 /* Sources */,
+				AFA0E8530B6AEBC2F09D46EEA9C572B6 /* Frameworks */,
+				F2B6CACFFC4C1538A59FA1FB39130554 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaNetworking;
+			productName = InstaNetworking;
+			productReference = E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		840D9169A57FE8CBF272FF27EA2BCC65 /* Pods-InstaNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BF66E50ACCE832596DBB48F95A2078 /* Build configuration list for PBXNativeTarget "Pods-InstaNetworking_Example" */;
+			buildPhases = (
+				BC38B25391F0E65DC0A8FBE98BF8813B /* Sources */,
+				649011EDD846D91B37129EE0A933D15E /* Frameworks */,
+				6731F75EA80A9CAE80C9306BC2E511B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96DCD03FEAA898A0B7A0E4259F425D5F /* PBXTargetDependency */,
+			);
+			name = "Pods-InstaNetworking_Example";
+			productName = "Pods-InstaNetworking_Example";
+			productReference = 82F9BF772898FE7E2F708AF3A7BC950C /* Pods_InstaNetworking_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA6AE976636AC3A4D95AF375DED465FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE21F97E30276FB67A401E53366199F /* InstaNetworking */,
+				840D9169A57FE8CBF272FF27EA2BCC65 /* Pods-InstaNetworking_Example */,
+				1988CF1A2E16D2F2D496837ED6779CEA /* Pods-InstaNetworking_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735AED07D22188A48318A4D29ACA0CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C73DC09243F8EF749EBCF6F590B67F /* InstaNetworking-dummy.m in Sources */,
+				D6A8D357205737B700DF0604 /* Request.m in Sources */,
+				D6A8D354205737B700DF0604 /* HelperClass.m in Sources */,
+				D6A8D355205737B700DF0604 /* URLSession.m in Sources */,
+				D6A8D35A205737B700DF0604 /* Reachability.m in Sources */,
+				F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38B25391F0E65DC0A8FBE98BF8813B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A184604DA91BBB813D61C0E49AD3B6D /* Pods-InstaNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3283E1FD91AD81915141403C28E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3894127A2D8D227F1E073BDA0EE61C /* Pods-InstaNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96DCD03FEAA898A0B7A0E4259F425D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InstaNetworking;
+			target = 7DE21F97E30276FB67A401E53366199F /* InstaNetworking */;
+			targetProxy = 98F6237B2B608F0884BA40702BB4B25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1341FC2AD03872C1748FCC21B7AA8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B674047E01A24715C592F242726219E /* Pods-InstaNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaNetworking_Example/Pods-InstaNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BA2E504D2A5B7C1BEFD5ABB3EAB0F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB574EA6D8B4F74CD710B26C1BB226E7 /* InstaNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstaNetworking/InstaNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstaNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstaNetworking/InstaNetworking.modulemap";
+				PRODUCT_NAME = InstaNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		83AA5BCEEC0FA26E62CA3E05AA5B5594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFE2D2F390615E08EC29F4C0070F75B /* Pods-InstaNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaNetworking_Tests/Pods-InstaNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84BF621C459FAA6F2F2902BC8838E81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52508AC8A18ED49D7B98C298FE895540 /* Pods-InstaNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaNetworking_Tests/Pods-InstaNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AEA11459207946C6D56C0CDE6EDEDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB574EA6D8B4F74CD710B26C1BB226E7 /* InstaNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InstaNetworking/InstaNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InstaNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InstaNetworking/InstaNetworking.modulemap";
+				PRODUCT_NAME = InstaNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8CBA60408F554CF2206896D9D7D97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD239268833041F2575875D75B9F7C4E /* Pods-InstaNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaNetworking_Example/Pods-InstaNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D46563291E0C47A02CBEAE2F78B8EFC /* Build configuration list for PBXNativeTarget "Pods-InstaNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF621C459FAA6F2F2902BC8838E81F /* Debug */,
+				83AA5BCEEC0FA26E62CA3E05AA5B5594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BF66E50ACCE832596DBB48F95A2078 /* Build configuration list for PBXNativeTarget "Pods-InstaNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1341FC2AD03872C1748FCC21B7AA8CD5 /* Debug */,
+				FA8CBA60408F554CF2206896D9D7D97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53C254D88AB58982B15513D6BAD847A /* Build configuration list for PBXNativeTarget "InstaNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEA11459207946C6D56C0CDE6EDEDF4 /* Debug */,
+				6BA2E504D2A5B7C1BEFD5ABB3EAB0F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

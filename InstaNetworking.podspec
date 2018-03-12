@@ -26,7 +26,7 @@ InstaNetworking is a networking framework for easy http(s) requests.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mahmoud.amer.m@gmail.com' => 'mahmoud.amer.m@gmail.com' }
-  s.source           = { :git => 'https://github.com/mahmoud-amer-m/Instabug', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/mahmoud-amer-m/Instabug.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

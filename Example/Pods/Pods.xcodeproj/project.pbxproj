@@ -30,7 +30,6 @@
 		D6A94B6020586BB700A98EED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A94B5C20586B1A00A98EED /* XCTest.framework */; };
 		D6A94B6920586E1100A98EED /* InstaNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A94B6820586E1100A98EED /* InstaNetworkingTests.m */; };
 		D6A94B6B20586E1100A98EED /* InstaNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */; };
-		F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		26CB0F4E8B613B56FC0001F6C37E91B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9F231FC38C8C0962D907208FFDE9D1 /* Pods-InstaNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		40EC06649E704EC1DDC4728514B4A2F0 /* InstaNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaNetworking-umbrella.h"; sourceTree = "<group>"; };
-		48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = InstaNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4BFF055E2EAB26C8E24D92F06B63EA5C /* InstaNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaNetworking-dummy.m"; sourceTree = "<group>"; };
 		52508AC8A18ED49D7B98C298FE895540 /* Pods-InstaNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B674047E01A24715C592F242726219E /* Pods-InstaNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		1CAE4390598F7DC10E1B244DEBEC2162 /* InstaNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */,
 				D6A8D353205737B700DF0604 /* URLSession.h */,
 				D6A8D34D205737B600DF0604 /* URLSession.m */,
 				D6A8D34E205737B600DF0604 /* Request.h */,
@@ -448,7 +445,6 @@
 				D6A94B572058611E00A98EED /* InstaImageView.m in Sources */,
 				D6A8D355205737B700DF0604 /* URLSession.m in Sources */,
 				D6A8D35A205737B700DF0604 /* Reachability.m in Sources */,
-				F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

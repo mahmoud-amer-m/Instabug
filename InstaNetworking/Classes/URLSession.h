@@ -11,18 +11,25 @@
 #import "HelperClass.h"
 #import "Reachability.h"
 
+@protocol URLSessionDownloadDelegate <NSObject>
+@required
+-(void)updateProgress:(float)progress;
+-(void)finishedDownloadTask:(NSData *)data;
+@end
 
-@interface URLSession : NSObject
+@interface URLSession : NSObject <RequestDownloadDelegate>
 
 @property (nonatomic, strong) NSNumber *count;
 @property (nonatomic, strong) NSMutableArray *requestsQueue;
-
+@property (nonatomic, weak) id <URLSessionDownloadDelegate> delegate;
+    
+    
 + (URLSession *)sharedNetworkSession;
 - (void)increaseCount;
 
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler;
 
-//- (void)GET:(Request *)request :( void (^)(NSData *response, NSError *error))completionHandler;
+- (void)Download:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters;
 
 
 @end

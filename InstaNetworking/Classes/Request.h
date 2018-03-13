@@ -15,7 +15,13 @@
 #define UPLOAD_METHOD_TYPE @"UPLOAD"
 #define DOWNLOAD_METHOD_TYPE @"DOWNLOAD"
 
-@interface Request : NSObject
+@protocol RequestDownloadDelegate <NSObject>
+@required
+-(void)updateProgress:(float)progress;
+-(void)finishedDownloadTask:(NSData *)data;
+@end
+
+@interface Request : NSObject <NSURLSessionDelegate>
 
 @property (nonatomic) NSURL *requestUrl;
 @property (nonatomic) NSString *requestMethod;
@@ -26,5 +32,11 @@
 - (void)DataWithMethodType:(NSString *)methodType :( void (^)(NSDictionary *response, NSError *error))completionHandler;
 
 - (void)UPLOAD :( void (^)(NSDictionary *response, NSError *error))completionHandler;
+    
+- (void)DOWNLOAD;
+@property (nonatomic, retain) NSMutableData *dataToDownload;
+@property (nonatomic) float downloadSize;
+@property (nonatomic, weak) id <RequestDownloadDelegate> delegate;
+
 
 @end

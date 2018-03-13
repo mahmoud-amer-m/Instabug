@@ -56,7 +56,38 @@
         }
     }else
         completionHandler(nil, nil);
-//        [NSException raise:@"Instabug Challenge -- Cannot load more requests" format:@"This exception is for debugging only"];
+}
+
+- (void)Download:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters
+{
+    if ([self checkNetworkCapability]) {
+        NSLog(@"url : %@", URL);
+        BOOL validRequest = [HelperClass validateText:URL] && [HelperClass validateText:method];
+        if (validRequest) {
+            if(!self.requestsQueue)
+                self.requestsQueue = [[NSMutableArray alloc] init];
+            
+            NSURL *url = [NSURL URLWithString:URL];
+            
+            Request *request = [[Request alloc] initWithUrl:url andMethod:method andParameters:parameters];
+            [self.requestsQueue addObject:request];
+            if ([method isEqualToString:DOWNLOAD_METHOD_TYPE])
+            {
+                request.delegate = self;
+                [request DOWNLOAD];
+            }
+        }
+    }
+}
+
+-(void)updateProgress:(float)progress
+{
+    [self.delegate updateProgress:progress];
+}
+
+-(void)finishedDownloadTask:(NSData *)data
+{
+    [self.delegate finishedDownloadTask:data];
 }
 
 -(BOOL)checkNetworkCapability {

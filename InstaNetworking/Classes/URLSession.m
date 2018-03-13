@@ -12,6 +12,7 @@
 
 @implementation URLSession
 
+/* TOTO */
 + (URLSession *)sharedNetworkSession
 {
     static dispatch_once_t predicate = 0;
@@ -23,15 +24,7 @@
     return sharedObject;
 }
 
-- (void)increaseCount
-{
-    int countInt =[self.count intValue];
-    
-    countInt ++;
-    self.count = [NSNumber numberWithInt:countInt];
-    NSLog(@"new count : %i", countInt);
-}
-
+/* TOTO */
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler
 {
     if ([self checkNetworkCapability]) {
@@ -56,12 +49,15 @@
         }
     }else
         completionHandler(nil, nil);
+//        [NSException raise:@"InstaNetwork can only process 6 requests using WIFI and 2 using cellular" format:@""];
+
 }
 
+/* TOTO */
 - (void)Download:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters
 {
     if ([self checkNetworkCapability]) {
-        NSLog(@"url : %@", URL);
+        NSLog(@"url there : %@", URL);
         BOOL validRequest = [HelperClass validateText:URL] && [HelperClass validateText:method];
         if (validRequest) {
             if(!self.requestsQueue)
@@ -80,33 +76,45 @@
     }
 }
 
+#pragma Request Download Delegate
+/* TOTO */
 -(void)updateProgress:(float)progress
 {
     [self.delegate updateProgress:progress];
 }
 
+/* TOTO */
 -(void)finishedDownloadTask:(NSData *)data
 {
     [self.delegate finishedDownloadTask:data];
 }
 
+#pragma Check network reachability and requests number
+/* TOTO */
 -(BOOL)checkNetworkCapability {
     Reachability *reachability = [Reachability reachabilityForInternetConnection];
     [reachability startNotifier];
     
     NetworkStatus status = [reachability currentReachabilityStatus];
-    
     if(status == NotReachable)
     {
         return NO;
     }
     else if (status == ReachableViaWiFi)
     {
-        return (self.requestsQueue.count < WifiMaxNum) ? YES : NO;
+        if (self.requestsQueue.count < WifiMaxNum)
+        {
+            return YES;
+        }else
+            [NSException raise:@"InstaNetwork can only process 6 requests using WIFI and 2 using cellular" format:@""];
     }
     else if (status == ReachableViaWWAN)
     {
-        return (self.requestsQueue.count < WWanMaxNum) ? YES : NO;
+        if (self.requestsQueue.count < WWanMaxNum)
+        {
+            return YES;
+        }else
+            [NSException raise:@"InstaNetwork can only process 6 requests using WIFI and 2 using cellular" format:@""];
     }
     return NO;
 }

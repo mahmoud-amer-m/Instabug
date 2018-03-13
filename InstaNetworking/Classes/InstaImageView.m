@@ -24,10 +24,12 @@
     [self addSubview:self.loadingIndicator];
 }
 
-
+/* TOTO */
 -(void)updateProgress:(float)progress{
     [self addSubview:self.loadingIndicator];
 }
+
+/* TOTO */
 -(void)finishedDownloadTask:(NSData *)data{
     [self.loadingIndicator stopAnimating];
     [self.loadingIndicator setHidden:YES];

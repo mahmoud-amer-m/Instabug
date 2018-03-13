@@ -1,9 +1,9 @@
 {
   "name": "InstaNetworking",
-  "version": "0.1.0",
-  "summary": "A short description of InstaNetworking.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mahmoud.amer.m@gmail.com/InstaNetworking",
+  "version": "0.0.4",
+  "summary": "InstaNetworking is a networking framework for easy http(s) requests",
+  "description": "InstaNetworking is a networking framework for easy http(s) requests.",
+  "homepage": "https://github.com/mahmoud-amer-m/Instabug",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "mahmoud.amer.m@gmail.com": "mahmoud.amer.m@gmail.com"
   },
   "source": {
-    "git": "https://github.com/mahmoud.amer.m@gmail.com/InstaNetworking.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/mahmoud-amer-m/Instabug.git",
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"

@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "HelperClass.h"
+#import "InstaImageView.h"
+#import "Reachability.h"
+#import "Request.h"
+#import "URLSession.h"
 
 FOUNDATION_EXPORT double InstaNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char InstaNetworkingVersionString[];

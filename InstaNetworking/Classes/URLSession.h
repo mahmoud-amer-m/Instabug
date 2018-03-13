@@ -11,6 +11,7 @@
 #import "HelperClass.h"
 #import "Reachability.h"
 
+/* TOTO */
 @protocol URLSessionDownloadDelegate <NSObject>
 @required
 -(void)updateProgress:(float)progress;
@@ -23,9 +24,8 @@
 @property (nonatomic, strong) NSMutableArray *requestsQueue;
 @property (nonatomic, weak) id <URLSessionDownloadDelegate> delegate;
     
-    
+
 + (URLSession *)sharedNetworkSession;
-- (void)increaseCount;
 
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler;
 

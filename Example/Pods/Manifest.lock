@@ -1,5 +1,5 @@
 PODS:
-  - InstaNetworking (0.1.0)
+  - InstaNetworking (0.0.4)
 
 DEPENDENCIES:
   - InstaNetworking (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  InstaNetworking: 1bda3ca15fa963e3c76411f3c963489c5de0f29a
+  InstaNetworking: 04b696ae187dbdc334845a4e832539690a277bd7
 
 PODFILE CHECKSUM: c7b234ff75a64b1787e56479baad7f2d9d83ca86
 

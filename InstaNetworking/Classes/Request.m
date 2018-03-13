@@ -10,6 +10,7 @@
 
 @implementation Request
 
+/* TOTO */
 - (id)initWithUrl:(NSURL *)url andMethod:(NSString *)method andParameters:(NSDictionary *)parameters {
     self = [super init];
     if (self)
@@ -23,6 +24,7 @@
     return self;
 }
 
+/* TOTO */
 - (NSURLSession *)dataSession
 {
     static NSURLSession *session = nil;
@@ -33,7 +35,7 @@
     return session;
 }
 
-
+/* TOTO */
 - (void)DataWithMethodType:(NSString *)methodType :( void (^)(NSDictionary *response, NSError *error))completionHandler
 {
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:self.requestUrl];
@@ -85,11 +87,13 @@
     [dataTask resume];
 }
 
+/* TOTO */
 - (void)UPLOAD :( void (^)(NSDictionary *response, NSError *error))downloadCompletionHandler
 {
     
 }
-    
+
+/* TOTO */
 - (void)DOWNLOAD
 {
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:self.requestUrl];
@@ -127,7 +131,7 @@ didCompleteWithError:(NSError *)error {
 
 }
 
-
+/* TOTO */
 - (NSMutableURLRequest *)addParametersToGetRequest:(NSMutableURLRequest *)request andParameters:(NSDictionary *)parameters {
     if (parameters) {
         if(parameters.count > 0) {
@@ -144,6 +148,7 @@ didCompleteWithError:(NSError *)error {
     return request;
 }
 
+/* TOTO */
 - (NSMutableURLRequest *)addParametersToPostRequest:(NSMutableURLRequest *)request andParameters:(NSDictionary *)parameters {
     if (parameters) {
         if(parameters.count > 0) {

@@ -32,6 +32,9 @@ InstaNetworking is a networking framework for easy http(s) requests.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'InstaNetworking/Classes/**/*'
+  s.test_spec 'Tests' do |test_spec|
+      test_spec.source_files = 'InstaNetworkingTests/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'InstaNetworking' => ['InstaNetworking/Assets/*.png']

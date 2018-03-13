@@ -24,11 +24,24 @@
 		D6A8D359205737B700DF0604 /* HelperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D351205737B700DF0604 /* HelperClass.h */; };
 		D6A8D35A205737B700DF0604 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8D352205737B700DF0604 /* Reachability.m */; };
 		D6A8D35B205737B700DF0604 /* URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A8D353205737B700DF0604 /* URLSession.h */; };
+		D6A94B562058611E00A98EED /* InstaImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A94B542058611E00A98EED /* InstaImageView.h */; };
+		D6A94B572058611E00A98EED /* InstaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A94B552058611E00A98EED /* InstaImageView.m */; };
+		D6A94B5D20586B1A00A98EED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A94B5C20586B1A00A98EED /* XCTest.framework */; };
+		D6A94B6020586BB700A98EED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A94B5C20586B1A00A98EED /* XCTest.framework */; };
+		D6A94B6920586E1100A98EED /* InstaNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A94B6820586E1100A98EED /* InstaNetworkingTests.m */; };
+		D6A94B6B20586E1100A98EED /* InstaNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */; };
 		F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F95CAAB3AF49E6ADB81422BD482650 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		98F6237B2B608F0884BA40702BB4B25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE21F97E30276FB67A401E53366199F;
+			remoteInfo = InstaNetworking;
+		};
+		D6A94B6C20586E1100A98EED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -78,6 +91,12 @@
 		D6A8D351205737B700DF0604 /* HelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperClass.h; sourceTree = "<group>"; };
 		D6A8D352205737B700DF0604 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D6A8D353205737B700DF0604 /* URLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLSession.h; sourceTree = "<group>"; };
+		D6A94B542058611E00A98EED /* InstaImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaImageView.h; sourceTree = "<group>"; };
+		D6A94B552058611E00A98EED /* InstaImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaImageView.m; sourceTree = "<group>"; };
+		D6A94B5C20586B1A00A98EED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6A94B6620586E1100A98EED /* InstaNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A94B6820586E1100A98EED /* InstaNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaNetworkingTests.m; sourceTree = "<group>"; };
+		D6A94B6A20586E1100A98EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4A134E42FC1E46DB9F58B9EDE55A2E /* Pods-InstaNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstaNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA49C049A095AEE9530ADB52427C56CA /* InstaNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InstaNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -96,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A94B6020586BB700A98EED /* XCTest.framework in Frameworks */,
 				5674C9737D5BF26EB9FC6BD2C0E248C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +124,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A94B5D20586B1A00A98EED /* XCTest.framework in Frameworks */,
 				415D3E4180404A2C1609151124A22B1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A94B6320586E1100A98EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A94B6B20586E1100A98EED /* InstaNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +152,8 @@
 				D6A8D34C205737B600DF0604 /* HelperClass.m */,
 				D6A8D350205737B600DF0604 /* Reachability.h */,
 				D6A8D352205737B700DF0604 /* Reachability.m */,
+				D6A94B542058611E00A98EED /* InstaImageView.h */,
+				D6A94B552058611E00A98EED /* InstaImageView.m */,
 				96E6B501AF4AEAF3B9EEA2693AE0BC35 /* Pod */,
 				D7820E70CFDADA2A292112A4D020B58E /* Support Files */,
 			);
@@ -179,6 +210,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				470EC32545AEAD8C5149182DF7646536 /* Development Pods */,
+				D6A94B6720586E1100A98EED /* InstaNetworkingTests */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				DA6AE976636AC3A4D95AF375DED465FC /* Products */,
 				889A6D945C36D329BD6255F9A1278F59 /* Targets Support Files */,
@@ -207,6 +239,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6A94B5C20586B1A00A98EED /* XCTest.framework */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
@@ -218,6 +251,15 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6A94B6720586E1100A98EED /* InstaNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6A94B6820586E1100A98EED /* InstaNetworkingTests.m */,
+				D6A94B6A20586E1100A98EED /* Info.plist */,
+			);
+			path = InstaNetworkingTests;
 			sourceTree = "<group>";
 		};
 		D7820E70CFDADA2A292112A4D020B58E /* Support Files */ = {
@@ -240,6 +282,7 @@
 				E2E00694118C0EB8FF54726492A52DBF /* InstaNetworking.framework */,
 				82F9BF772898FE7E2F708AF3A7BC950C /* Pods_InstaNetworking_Example.framework */,
 				A01A5B968037148EA25293DEE6160BFD /* Pods_InstaNetworking_Tests.framework */,
+				D6A94B6620586E1100A98EED /* InstaNetworkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +307,7 @@
 				D6A8D356205737B700DF0604 /* Request.h in Headers */,
 				68DF78E0855A8542B9297B3727354F91 /* InstaNetworking-umbrella.h in Headers */,
 				D6A8D35B205737B700DF0604 /* URLSession.h in Headers */,
+				D6A94B562058611E00A98EED /* InstaImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +374,24 @@
 			productReference = 82F9BF772898FE7E2F708AF3A7BC950C /* Pods_InstaNetworking_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D6A94B6520586E1100A98EED /* InstaNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A94B6E20586E1100A98EED /* Build configuration list for PBXNativeTarget "InstaNetworkingTests" */;
+			buildPhases = (
+				D6A94B6220586E1100A98EED /* Sources */,
+				D6A94B6320586E1100A98EED /* Frameworks */,
+				D6A94B6420586E1100A98EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6A94B6D20586E1100A98EED /* PBXTargetDependency */,
+			);
+			name = InstaNetworkingTests;
+			productName = InstaNetworkingTests;
+			productReference = D6A94B6620586E1100A98EED /* InstaNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,6 +400,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D6A94B6520586E1100A98EED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,9 +422,20 @@
 				7DE21F97E30276FB67A401E53366199F /* InstaNetworking */,
 				840D9169A57FE8CBF272FF27EA2BCC65 /* Pods-InstaNetworking_Example */,
 				1988CF1A2E16D2F2D496837ED6779CEA /* Pods-InstaNetworking_Tests */,
+				D6A94B6520586E1100A98EED /* InstaNetworkingTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6A94B6420586E1100A98EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		735AED07D22188A48318A4D29ACA0CA6 /* Sources */ = {
@@ -366,6 +445,7 @@
 				A7C73DC09243F8EF749EBCF6F590B67F /* InstaNetworking-dummy.m in Sources */,
 				D6A8D357205737B700DF0604 /* Request.m in Sources */,
 				D6A8D354205737B700DF0604 /* HelperClass.m in Sources */,
+				D6A94B572058611E00A98EED /* InstaImageView.m in Sources */,
 				D6A8D355205737B700DF0604 /* URLSession.m in Sources */,
 				D6A8D35A205737B700DF0604 /* Reachability.m in Sources */,
 				F055FA47F1717BCB2363141C77CC0749 /* ReplaceMe.m in Sources */,
@@ -377,6 +457,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A184604DA91BBB813D61C0E49AD3B6D /* Pods-InstaNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A94B6220586E1100A98EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A94B6920586E1100A98EED /* InstaNetworkingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +484,11 @@
 			name = InstaNetworking;
 			target = 7DE21F97E30276FB67A401E53366199F /* InstaNetworking */;
 			targetProxy = 98F6237B2B608F0884BA40702BB4B25A /* PBXContainerItemProxy */;
+		};
+		D6A94B6D20586E1100A98EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE21F97E30276FB67A401E53366199F /* InstaNetworking */;
+			targetProxy = D6A94B6C20586E1100A98EED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -677,6 +770,41 @@
 			};
 			name = Debug;
 		};
+		D6A94B6F20586E1100A98EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amer.InstaNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6A94B7020586E1100A98EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaNetworkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amer.InstaNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FA8CBA60408F554CF2206896D9D7D97A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD239268833041F2575875D75B9F7C4E /* Pods-InstaNetworking_Example.release.xcconfig */;
@@ -745,6 +873,15 @@
 			buildConfigurations = (
 				9AEA11459207946C6D56C0CDE6EDEDF4 /* Debug */,
 				6BA2E504D2A5B7C1BEFD5ABB3EAB0F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A94B6E20586E1100A98EED /* Build configuration list for PBXNativeTarget "InstaNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A94B6F20586E1100A98EED /* Debug */,
+				D6A94B7020586E1100A98EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

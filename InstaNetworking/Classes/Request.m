@@ -85,10 +85,48 @@
     [dataTask resume];
 }
 
-- (void)UPLOAD :( void (^)(NSDictionary *response, NSError *error))completionHandler
+- (void)UPLOAD :( void (^)(NSDictionary *response, NSError *error))downloadCompletionHandler
 {
     
 }
+    
+- (void)DOWNLOAD
+{
+    NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:self.requestUrl];
+    if (self.requestParameters) {
+        urlRequest = [self addParametersToPostRequest:urlRequest andParameters:self.requestParameters];
+    }
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
+    
+    NSURLSessionDataTask *dataTask = [session dataTaskWithURL: self.requestUrl];
+    
+    [dataTask resume];
+}
+
+#pragma mark - NSURLSession Delegate Methods
+- (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition disposition))completionHandler {
+    completionHandler(NSURLSessionResponseAllow);
+    
+    self.downloadSize = [response expectedContentLength];
+    self.dataToDownload = [[NSMutableData alloc] init];
+}
+    
+- (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data {
+    [self.dataToDownload appendData:data];
+    [self.delegate updateProgress:[self.dataToDownload length]/self.downloadSize];
+}
+
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task
+didCompleteWithError:(NSError *)error {
+    if (error) {
+        NSLog(@"Insta download error : %@", error.localizedDescription);
+    }
+    else {
+        [self.delegate finishedDownloadTask:self.dataToDownload];
+    }
+
+}
+
 
 - (NSMutableURLRequest *)addParametersToGetRequest:(NSMutableURLRequest *)request andParameters:(NSDictionary *)parameters {
     if (parameters) {

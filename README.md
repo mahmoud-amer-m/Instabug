@@ -68,7 +68,7 @@ pod 'InstaNetworking'
 
 ## Author
 
-mahmoud.amer.m@gmail.com, mahmoud.amer.m@gmail.com
+Mahmoud Amer, mahmoud.amer.m@gmail.com
 
 ## License
 

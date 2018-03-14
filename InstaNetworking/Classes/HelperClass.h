@@ -15,7 +15,7 @@ typedef enum : NSInteger {
 
 @interface HelperClass : NSObject
 
-+ (BOOL)validateText:(NSString *)text;
++ (BOOL)validateText:(NSString *)text; 
 
 
 @end

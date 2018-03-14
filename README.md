@@ -8,6 +8,7 @@
 # Usage
 You'll only deal with URLSession class that has two main methods (request / Download). (UrlSession is a singleton)
 ## You can use InstaChallenge project inside the repo as your guide
+## UnitTests are implemented in the example project
 ## 1- Get/Post/Put Requests
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler
 

@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/InstaNetworking.svg?style=flat)](http://cocoapods.org/pods/InstaNetworking)
 
 # Usage
+You'll only deal with URLSession class that has two main methods (request / Download)
 ## You can use InstaChallenge project inside the repo as your guide
 ## 1- Get/Post/Put Requests
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler
@@ -43,7 +44,7 @@ To implement this method and get current download progress and be notified when 
     [urlSession Download:@"http://upload.wikimedia.org/wikipedia/commons/7/7f/Williams_River-27527.jpg" method:DOWNLOAD_METHOD_TYPE parameters:nil];
     
     
-## 3- InstaImageView
+## 3- InstaImageView (Bonus :) )
 To use InstaImageView, you can use it directly in your story board by dragging UIImageView and change class to InstaImageView.
 In your view controller, whenever you've the image URL then call download method
 -(void)setImageWithURL:(NSString *)url defaultImage:(UIImage *)defaultImage;

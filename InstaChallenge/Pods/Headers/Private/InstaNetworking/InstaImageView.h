@@ -1,1 +1,1 @@
-../../../../../InstaNetworking/Classes/InstaImageView.h
+../../../InstaNetworking/InstaNetworking/Classes/InstaImageView.h

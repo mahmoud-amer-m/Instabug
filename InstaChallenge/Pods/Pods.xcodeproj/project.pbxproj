@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1348110E578F0830FAF2B2473C4ACABB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DB68633B09514576D49E0578D1C7F809 /* Reachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24CC0649ABE2056DE85BBA2FD8F4BA75 /* InstaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 355B6CCF9A36F38533E5D55D33EF9C0A /* InstaImageView.m */; };
+		1348110E578F0830FAF2B2473C4ACABB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9D27E360AB8206D72B18761C677F6C /* Reachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24CC0649ABE2056DE85BBA2FD8F4BA75 /* InstaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D2B14CA29E4290E21F57D1D6F877FF /* InstaImageView.m */; };
 		281F6F14116DC10DDE0B6F3B8F150097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		36B2ABAF2F3BDC3AB5EFD9AF6E36A698 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1342C8F854AE6281A15CC05C79B54D /* Reachability.m */; };
-		3DD9E36775ABBC6FC3730D1C2E4B711B /* HelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0424947AC495271CD4D35CE6DCCB4 /* HelperClass.m */; };
+		36B2ABAF2F3BDC3AB5EFD9AF6E36A698 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA499CCFF4E46213F12D3F4181D1770 /* Reachability.m */; };
+		3DD9E36775ABBC6FC3730D1C2E4B711B /* HelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AE18F1B23D60434855B6752C39E1AA13 /* HelperClass.m */; };
 		479427DA7E361D5104C2FD1EAF0FA78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		882EFE813400258697FB388E1CEA783F /* URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9525AF499B30DC2C0243877A4BD14BF5 /* URLSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4B18509B17BE9E54A62CB4B97DAB3FF /* HelperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B55A936C5287FDB94A76515F38A39A /* HelperClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C0C4EA30ECEE42EE8C869BF681F0A9AD /* URLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A52BEE99589309C19A5669F66FE41617 /* URLSession.m */; };
+		882EFE813400258697FB388E1CEA783F /* URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 297C7F9CF65085EA4948FCD1189A8B2D /* URLSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4B18509B17BE9E54A62CB4B97DAB3FF /* HelperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFE3B9361189976758EB05FC821415A /* HelperClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0C4EA30ECEE42EE8C869BF681F0A9AD /* URLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E326087FA9FD65732014F2F3C46076A7 /* URLSession.m */; };
 		C4B8938CB83497C07F384FBF3F47ED1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CCE25911044B5C88692935D2EF22D095 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5BA7653384136C942C6A6F9BDE11AC /* Request.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DBB3002F54DD7555B7134291E8B50C0D /* InstaNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1DE74D573BCCD62B40216E96A21136 /* InstaNetworking-dummy.m */; };
+		CCE25911044B5C88692935D2EF22D095 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F32E74050C04240471877D8FAD8DB52 /* Request.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBB3002F54DD7555B7134291E8B50C0D /* InstaNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066CD6F8BE20BCB6B1EF7079D9CA1082 /* InstaNetworking-dummy.m */; };
 		DC0540FCF72A1DFCFB408735DCDD063C /* Pods-InstaChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C802B4E3A9D126DFF9AE7E8EF5B8A /* Pods-InstaChallenge-dummy.m */; };
-		EDD85FD15A7407FA8A1600421144A6A3 /* InstaImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D80EFFADE3261035D2263ABD6ADE1704 /* InstaImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDD85FD15A7407FA8A1600421144A6A3 /* InstaImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A5A1BD9A010F53D5B5214D39225D74 /* InstaImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FB3E2F7E88F8C102E9618818054F0445 /* Pods-InstaChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B593228301416B6A73C6C9E41D23222C /* Pods-InstaChallengeTests-dummy.m */; };
-		FB8221D0C0D64E087F1F145965955DE8 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = B175888BAE753CD7EC734C3555B99CE8 /* Request.m */; };
+		FB8221D0C0D64E087F1F145965955DE8 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7BD4FED9596655AEC5514F05E5E1C9 /* Request.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,39 +43,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E1DE74D573BCCD62B40216E96A21136 /* InstaNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaNetworking-dummy.m"; sourceTree = "<group>"; };
-		11D0424947AC495271CD4D35CE6DCCB4 /* HelperClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HelperClass.m; path = InstaNetworking/Classes/HelperClass.m; sourceTree = "<group>"; };
-		136994C11F973BAA80467D0B023A7DAE /* InstaNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = InstaNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		066CD6F8BE20BCB6B1EF7079D9CA1082 /* InstaNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaNetworking-dummy.m"; sourceTree = "<group>"; };
 		1A5B8A0ADE4757F2C47B23FA97687202 /* Pods-InstaChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24B5D2C62165EF1D4E3BAEA5DA164ED5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		253D9C785177AD9F6F9E65E1570FC3B1 /* Pods-InstaChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		27D2B14CA29E4290E21F57D1D6F877FF /* InstaImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstaImageView.m; path = InstaNetworking/Classes/InstaImageView.m; sourceTree = "<group>"; };
+		297C7F9CF65085EA4948FCD1189A8B2D /* URLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URLSession.h; path = InstaNetworking/Classes/URLSession.h; sourceTree = "<group>"; };
 		311C15E2D5DE4066CC557BE4AC8B25D2 /* Pods-InstaChallengeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaChallengeTests-frameworks.sh"; sourceTree = "<group>"; };
 		3263DE33316E01497DFB8B2EFE981879 /* Pods-InstaChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		355B6CCF9A36F38533E5D55D33EF9C0A /* InstaImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstaImageView.m; path = InstaNetworking/Classes/InstaImageView.m; sourceTree = "<group>"; };
-		355D9835BD78B86A67070F802AAD5B54 /* InstaNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaNetworking-prefix.pch"; sourceTree = "<group>"; };
 		3D1C802B4E3A9D126DFF9AE7E8EF5B8A /* Pods-InstaChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaChallenge-dummy.m"; sourceTree = "<group>"; };
 		3D651C91F53EC2EDCCB837BFEFCD9CBA /* libInstaNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libInstaNetworking.a; path = libInstaNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B30C15FAEFB625732F9087F4C2B2B14 /* Pods-InstaChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		57DF637224851595EC6FFAED3437E341 /* Pods-InstaChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaChallenge-resources.sh"; sourceTree = "<group>"; };
 		5F6974C96F7F84C5B5EB52797D792CD3 /* Pods-InstaChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		61B55A936C5287FDB94A76515F38A39A /* HelperClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelperClass.h; path = InstaNetworking/Classes/HelperClass.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7342AAE32289FBEF57426193183F058F /* InstaNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaNetworking.xcconfig; sourceTree = "<group>"; };
+		6F32E74050C04240471877D8FAD8DB52 /* Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Request.h; path = InstaNetworking/Classes/Request.h; sourceTree = "<group>"; };
+		7C7BD4FED9596655AEC5514F05E5E1C9 /* Request.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Request.m; path = InstaNetworking/Classes/Request.m; sourceTree = "<group>"; };
+		7EA499CCFF4E46213F12D3F4181D1770 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = InstaNetworking/Classes/Reachability.m; sourceTree = "<group>"; };
 		83DDC9E5ECA75FD308C507F4F4F3865C /* Pods-InstaChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		8B26DA794E93F6445029A1B7F3B0E9E1 /* Pods-InstaChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D1342C8F854AE6281A15CC05C79B54D /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = InstaNetworking/Classes/Reachability.m; sourceTree = "<group>"; };
+		8E9D27E360AB8206D72B18761C677F6C /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = InstaNetworking/Classes/Reachability.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9525AF499B30DC2C0243877A4BD14BF5 /* URLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URLSession.h; path = InstaNetworking/Classes/URLSession.h; sourceTree = "<group>"; };
-		A52BEE99589309C19A5669F66FE41617 /* URLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = URLSession.m; path = InstaNetworking/Classes/URLSession.m; sourceTree = "<group>"; };
+		93A5A1BD9A010F53D5B5214D39225D74 /* InstaImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstaImageView.h; path = InstaNetworking/Classes/InstaImageView.h; sourceTree = "<group>"; };
+		A064331C7A7D0B35D2E4B9CD35CD6E04 /* InstaNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaNetworking-prefix.pch"; sourceTree = "<group>"; };
+		A4AEF6AD11F1A127CAC55ED655747BEE /* InstaNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaNetworking.xcconfig; sourceTree = "<group>"; };
 		A54F8097FF4756F8BA67D0EFC9AC4A59 /* Pods-InstaChallengeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaChallengeTests-resources.sh"; sourceTree = "<group>"; };
-		AC5BA7653384136C942C6A6F9BDE11AC /* Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Request.h; path = InstaNetworking/Classes/Request.h; sourceTree = "<group>"; };
-		B175888BAE753CD7EC734C3555B99CE8 /* Request.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Request.m; path = InstaNetworking/Classes/Request.m; sourceTree = "<group>"; };
+		AE18F1B23D60434855B6752C39E1AA13 /* HelperClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HelperClass.m; path = InstaNetworking/Classes/HelperClass.m; sourceTree = "<group>"; };
 		B593228301416B6A73C6C9E41D23222C /* Pods-InstaChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaChallengeTests-dummy.m"; sourceTree = "<group>"; };
 		BA102562507862FB52768174561A753D /* Pods-InstaChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		BEE0E13B66B600E23715D067C7968EDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CDFE3B9361189976758EB05FC821415A /* HelperClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelperClass.h; path = InstaNetworking/Classes/HelperClass.h; sourceTree = "<group>"; };
 		D23F49F7901842D035A5F7AD72FB62EC /* Pods-InstaChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaChallenge-frameworks.sh"; sourceTree = "<group>"; };
-		D80EFFADE3261035D2263ABD6ADE1704 /* InstaImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstaImageView.h; path = InstaNetworking/Classes/InstaImageView.h; sourceTree = "<group>"; };
-		DB68633B09514576D49E0578D1C7F809 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = InstaNetworking/Classes/Reachability.h; sourceTree = "<group>"; };
+		E326087FA9FD65732014F2F3C46076A7 /* URLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = URLSession.m; path = InstaNetworking/Classes/URLSession.m; sourceTree = "<group>"; };
 		EDFCBB7A4CF59882297286C9339AB0C2 /* libPods-InstaChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-InstaChallenge.a"; path = "libPods-InstaChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE59FA47F42B221BE09DA12F7F02F30C /* libPods-InstaChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-InstaChallengeTests.a"; path = "libPods-InstaChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,43 +115,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		564C93D595B9D3F705815505B4BED362 /* InstaNetworking */ = {
+		79B8018ED1B40C6E6AEB60C9AE3E7882 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				61B55A936C5287FDB94A76515F38A39A /* HelperClass.h */,
-				11D0424947AC495271CD4D35CE6DCCB4 /* HelperClass.m */,
-				D80EFFADE3261035D2263ABD6ADE1704 /* InstaImageView.h */,
-				355B6CCF9A36F38533E5D55D33EF9C0A /* InstaImageView.m */,
-				DB68633B09514576D49E0578D1C7F809 /* Reachability.h */,
-				8D1342C8F854AE6281A15CC05C79B54D /* Reachability.m */,
-				AC5BA7653384136C942C6A6F9BDE11AC /* Request.h */,
-				B175888BAE753CD7EC734C3555B99CE8 /* Request.m */,
-				9525AF499B30DC2C0243877A4BD14BF5 /* URLSession.h */,
-				A52BEE99589309C19A5669F66FE41617 /* URLSession.m */,
-				B3A4856E87997A9F941362BA2D31F519 /* Pod */,
-				64CEA88C2C8211DA7195593A58FB4581 /* Support Files */,
+				FECF31B31B8C29677148B600882D20C3 /* InstaNetworking */,
 			);
-			name = InstaNetworking;
-			path = /Users/mahmoudamer/Desktop/InstaNetworking;
-			sourceTree = "<absolute>";
-		};
-		64CEA88C2C8211DA7195593A58FB4581 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7342AAE32289FBEF57426193183F058F /* InstaNetworking.xcconfig */,
-				0E1DE74D573BCCD62B40216E96A21136 /* InstaNetworking-dummy.m */,
-				355D9835BD78B86A67070F802AAD5B54 /* InstaNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "InstaChallenge/Pods/Target Support Files/InstaNetworking";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9A81888626C8AFA131EB2B14296905F9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				79B8018ED1B40C6E6AEB60C9AE3E7882 /* Pods */,
 				288953F2DA9CD8FA48C65AA2EF3856AF /* Products */,
 				D3F1A095D9D459317D44C28526AF5B6B /* Targets Support Files */,
 			);
@@ -175,22 +149,15 @@
 			path = "Target Support Files/Pods-InstaChallengeTests";
 			sourceTree = "<group>";
 		};
-		9A81888626C8AFA131EB2B14296905F9 /* Development Pods */ = {
+		B2F8B3475419FA3B9EECFB7DBF7D35BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				564C93D595B9D3F705815505B4BED362 /* InstaNetworking */,
+				A4AEF6AD11F1A127CAC55ED655747BEE /* InstaNetworking.xcconfig */,
+				066CD6F8BE20BCB6B1EF7079D9CA1082 /* InstaNetworking-dummy.m */,
+				A064331C7A7D0B35D2E4B9CD35CD6E04 /* InstaNetworking-prefix.pch */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B3A4856E87997A9F941362BA2D31F519 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				136994C11F973BAA80467D0B023A7DAE /* InstaNetworking.podspec */,
-				24B5D2C62165EF1D4E3BAEA5DA164ED5 /* LICENSE */,
-				BEE0E13B66B600E23715D067C7968EDD /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/InstaNetworking";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -231,6 +198,25 @@
 				83CBBD506EF17043AE6BB32985DCE1B7 /* Pods-InstaChallengeTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FECF31B31B8C29677148B600882D20C3 /* InstaNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE3B9361189976758EB05FC821415A /* HelperClass.h */,
+				AE18F1B23D60434855B6752C39E1AA13 /* HelperClass.m */,
+				93A5A1BD9A010F53D5B5214D39225D74 /* InstaImageView.h */,
+				27D2B14CA29E4290E21F57D1D6F877FF /* InstaImageView.m */,
+				8E9D27E360AB8206D72B18761C677F6C /* Reachability.h */,
+				7EA499CCFF4E46213F12D3F4181D1770 /* Reachability.m */,
+				6F32E74050C04240471877D8FAD8DB52 /* Request.h */,
+				7C7BD4FED9596655AEC5514F05E5E1C9 /* Request.m */,
+				297C7F9CF65085EA4948FCD1189A8B2D /* URLSession.h */,
+				E326087FA9FD65732014F2F3C46076A7 /* URLSession.m */,
+				B2F8B3475419FA3B9EECFB7DBF7D35BE /* Support Files */,
+			);
+			name = InstaNetworking;
+			path = InstaNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +366,7 @@
 /* Begin XCBuildConfiguration section */
 		22CFA1C9C0A1DE766483808662839685 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7342AAE32289FBEF57426193183F058F /* InstaNetworking.xcconfig */;
+			baseConfigurationReference = A4AEF6AD11F1A127CAC55ED655747BEE /* InstaNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -464,7 +450,7 @@
 		};
 		742672436EEC7ACDC5399A1110387A5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7342AAE32289FBEF57426193183F058F /* InstaNetworking.xcconfig */;
+			baseConfigurationReference = A4AEF6AD11F1A127CAC55ED655747BEE /* InstaNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

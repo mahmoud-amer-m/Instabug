@@ -88,7 +88,7 @@
 }
 
 #pragma Request Download Delegate
-/* Update enqueur with progress */
+/* TOTO */
 -(void)updateProgress:(float)progress
 {
     [self.delegate updateProgress:progress];

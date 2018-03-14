@@ -6,11 +6,11 @@ target 'InstaChallenge' do
   # use_frameworks!
 
   # Pods for InstaChallenge
-	pod 'InstaNetworking',  :path => '~/Desktop/InstaNetworking'
+	pod 'InstaNetworking'
   target 'InstaChallengeTests' do
     inherit! :search_paths
     # Pods for testing
-	pod 'InstaNetworking',  :path => '~/Desktop/InstaNetworking'
+	pod 'InstaNetworking'
   end
 
 end

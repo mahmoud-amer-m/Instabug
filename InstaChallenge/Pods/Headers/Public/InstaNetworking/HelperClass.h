@@ -1,1 +1,1 @@
-../../../../../InstaNetworking/Classes/HelperClass.h
+../../../InstaNetworking/InstaNetworking/Classes/HelperClass.h

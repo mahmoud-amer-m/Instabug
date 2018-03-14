@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/InstaNetworking.svg?style=flat)](http://cocoapods.org/pods/InstaNetworking)
 
 # Usage
-You'll only deal with URLSession class that has two main methods (request / Download)
+You'll only deal with URLSession class that has two main methods (request / Download). (UrlSession is a singleton)
 ## You can use InstaChallenge project inside the repo as your guide
 ## 1- Get/Post/Put Requests
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler

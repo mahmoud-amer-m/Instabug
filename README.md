@@ -9,7 +9,7 @@
 ## 1- Get/Post/Put Requests
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler
 
-Parameters:
+### Parameters:
   URL - NSString: request URL
   
   method - NSString: Request Method (Get/Post/Put)
@@ -27,7 +27,7 @@ Parameters:
 ## 2- Download File
 - (void)Download:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters;
 
-Parameters:
+### Parameters:
   URL - NSString: request URL
   
   method - NSString: Request Method (Download)
@@ -40,6 +40,19 @@ To implement this method and get current download progress and be notified when 
     URLSession *urlSession = [URLSession sharedNetworkSession];
     urlSession.delegate = self;
     [urlSession Download:@"http://upload.wikimedia.org/wikipedia/commons/7/7f/Williams_River-27527.jpg" method:DOWNLOAD_METHOD_TYPE parameters:nil];
+    
+    
+## 3- InstaImageView
+To use InstaImageView, you can use it directly in your story board by dragging UIImageView and change class to InstaImageView.
+In your view controller, whenever you've the image URL then call download method
+-(void)setImageWithURL:(NSString *)url defaultImage:(UIImage *)defaultImage;
+
+### Parameters:
+  URL - NSString: request URL
+  defaultImage - UIImage: default image to be displayed until downloading the image
+  
+### Example
+    [_instaImgView setImageWithURL:@"http://upload.wikimedia.org/wikipedia/commons/7/7f/Williams_River-27527.jpg" defaultImage:[UIImage imageNamed:@"<YOUR_DEFAULT_IMAGE>"]];
 
 ## Installation
 

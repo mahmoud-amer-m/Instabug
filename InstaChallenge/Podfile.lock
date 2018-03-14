@@ -1,0 +1,16 @@
+PODS:
+  - InstaNetworking (0.0.7)
+
+DEPENDENCIES:
+  - InstaNetworking (from `~/Desktop/InstaNetworking`)
+
+EXTERNAL SOURCES:
+  InstaNetworking:
+    :path: ~/Desktop/InstaNetworking
+
+SPEC CHECKSUMS:
+  InstaNetworking: 7c4854aba5bfe302f7ddb1171c5d348cda9ec327
+
+PODFILE CHECKSUM: 96ce2ff90102b53442ff7906089775437e5abf9b
+
+COCOAPODS: 1.4.0

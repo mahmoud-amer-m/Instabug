@@ -1,0 +1,1 @@
+../../../../../InstaNetworking/Classes/HelperClass.h

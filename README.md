@@ -52,6 +52,7 @@ In your view controller, whenever you've the image URL then call download method
 
 ### Parameters:
   URL - NSString: request URL
+  
   defaultImage - UIImage: default image to be displayed until downloading the image
   
 ### Example

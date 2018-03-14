@@ -1,6 +1,0 @@
-framework module InstaNetworking {
-  umbrella header "InstaNetworking-umbrella.h"
-
-  export *
-  module * { export * }
-}

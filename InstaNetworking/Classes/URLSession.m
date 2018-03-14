@@ -12,7 +12,7 @@
 
 @implementation URLSession
 
-/* TOTO */
+/* Singleton */
 + (URLSession *)sharedNetworkSession
 {
     static dispatch_once_t predicate = 0;
@@ -24,7 +24,13 @@
     return sharedObject;
 }
 
-/* TOTO */
+/* Post/Get/Put Requests
+ Parameters:
+ URL - NSString: request URL
+ method - NSString: Request Method (Get/Post/Put)
+ parameters - NSDictionary: request parameters
+ Completion - Block: fires when request completed to return data to the enqueuer
+ */
 - (void)request:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters  completion:( void (^)(NSDictionary *response, NSError *error))completionHandler
 {
     if ([self checkNetworkCapability]) {
@@ -53,7 +59,12 @@
 
 }
 
-/* TOTO */
+/* DOWNLOAD
+ Parameters:
+ URL - NSString: request URL
+ method - NSString: Request Method (Download)
+ parameters - NSDictionary: request parameters
+ */
 - (void)Download:(NSString *)URL method:(NSString *)method parameters:(NSDictionary *)parameters
 {
     if ([self checkNetworkCapability]) {

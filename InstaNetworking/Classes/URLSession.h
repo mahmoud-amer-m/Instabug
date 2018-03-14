@@ -11,7 +11,7 @@
 #import "HelperClass.h"
 #import "Reachability.h"
 
-/* TOTO */
+/* Protocol to notify ypur view controller with download progress and when the download completed */
 @protocol URLSessionDownloadDelegate <NSObject>
 @required
 -(void)updateProgress:(float)progress;

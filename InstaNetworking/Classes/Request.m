@@ -10,7 +10,7 @@
 
 @implementation Request
 
-/* TOTO */
+/* Class Initialization */
 - (id)initWithUrl:(NSURL *)url andMethod:(NSString *)method andParameters:(NSDictionary *)parameters {
     self = [super init];
     if (self)
@@ -24,7 +24,7 @@
     return self;
 }
 
-/* TOTO */
+/* Method returns NSURLSession with default session configuration */
 - (NSURLSession *)dataSession
 {
     static NSURLSession *session = nil;
@@ -35,7 +35,7 @@
     return session;
 }
 
-/* TOTO */
+/* Put/Get/Post Requests */
 - (void)DataWithMethodType:(NSString *)methodType :( void (^)(NSDictionary *response, NSError *error))completionHandler
 {
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:self.requestUrl];
@@ -93,7 +93,7 @@
     
 }
 
-/* TOTO */
+/* Download Method */
 - (void)DOWNLOAD
 {
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:self.requestUrl];
@@ -131,7 +131,7 @@ didCompleteWithError:(NSError *)error {
 
 }
 
-/* TOTO */
+/* Preparing Get Requests Parameters */
 - (NSMutableURLRequest *)addParametersToGetRequest:(NSMutableURLRequest *)request andParameters:(NSDictionary *)parameters {
     if (parameters) {
         if(parameters.count > 0) {
@@ -148,7 +148,7 @@ didCompleteWithError:(NSError *)error {
     return request;
 }
 
-/* TOTO */
+/* Preparing Post Requests Parameters */
 - (NSMutableURLRequest *)addParametersToPostRequest:(NSMutableURLRequest *)request andParameters:(NSDictionary *)parameters {
     if (parameters) {
         if(parameters.count > 0) {

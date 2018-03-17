@@ -70,6 +70,7 @@ pod 'InstaNetworking'
 ## Author
 
 Mahmoud Amer, mahmoud.amer.m@gmail.com
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="mahmoud-amer-825831103"><a class="LI-simple-link" href='https://eg.linkedin.com/in/mahmoud-amer-825831103?trk=profile-badge'>Mahmoud Amer</a></div>
 
 ## License
 
